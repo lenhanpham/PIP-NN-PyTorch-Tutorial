@@ -1,0 +1,30 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module pip_1_1_1_4 ! in 
+    interface  ! in :pip_1_1_1_4
+        module basis ! in :pip_1_1_1_4:basis_1_1_1_4.f90
+            function emsav(x,c) result (v) ! in :pip_1_1_1_4:basis_1_1_1_4.f90:basis
+                real dimension(3) :: x
+                real dimension(35) :: c
+                real :: v
+            end function emsav
+            subroutine bemsav(x,p) ! in :pip_1_1_1_4:basis_1_1_1_4.f90:basis
+                real dimension(3),intent(in) :: x
+                real dimension(35),intent(out) :: p
+            end subroutine bemsav
+            subroutine evmono(x,m) ! in :pip_1_1_1_4:basis_1_1_1_4.f90:basis
+                real dimension(3),intent(in) :: x
+                real dimension(4),intent(out) :: m
+            end subroutine evmono
+            subroutine evpoly(m,p) ! in :pip_1_1_1_4:basis_1_1_1_4.f90:basis
+                real dimension(4),intent(in) :: m
+                real dimension(35),intent(out) :: p
+            end subroutine evpoly
+        end module basis
+    end interface 
+end python module pip_1_1_1_4
+
+! This file was auto-generated with f2py (version:1.23.4).
+! See:
+! https://web.archive.org/web/20140822061353/http://cens.ioc.ee/projects/f2py2e
