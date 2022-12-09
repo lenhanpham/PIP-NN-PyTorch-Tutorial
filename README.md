@@ -42,6 +42,7 @@ Then you can play with the notebooks.
 - `scipy`
 - `matplotlib`
 - `sklearn`
+- `openbabel`
 
 ## References
 
