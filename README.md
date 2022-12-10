@@ -43,6 +43,7 @@ Then you can play with the notebooks.
 - `matplotlib`
 - `sklearn`
 - `openbabel`
+- `SciencePlots`
 
 ## References
 
