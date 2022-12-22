@@ -1,6 +1,6 @@
 # PIP-NN-PyTorch-Tutorial
 
-A Tutorial of PIP-NN, implemented in PyTorch
+A Tutorial of Permutation Invariant Polynomial Neural Network (PIP-NN), implemented in PyTorch.
 
 ## Introduction
 
